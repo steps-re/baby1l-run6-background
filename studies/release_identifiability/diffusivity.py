@@ -228,7 +228,7 @@ def main() -> int:
         T1 = make(WINDOWS[0]).meta["temperature_salt_C"] + 273.15
         D_cal1 = d_calderoni_T(T1)
         truths = (("well_mixed_truth", 1e-3), ("D_7e-10_truth", D_H2), ("D_calderoni_run1_T_truth", D_cal1))
-        # seeds: the first 2n keep the original two truths' streams; the Calderoni truth gets new ones
+        # seeds: the first 2n keep the original two truths' streams, the Calderoni truth gets new ones
         seeds = [int(x) for x in np.random.SeedSequence(20260930).generate_state(2 * n)]
         seeds += [int(x) for x in np.random.SeedSequence(20260931).generate_state(n)]
         tasks = [(D, sd) for k, (_, D) in enumerate(truths) for sd in seeds[k * n:(k + 1) * n]]

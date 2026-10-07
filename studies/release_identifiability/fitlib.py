@@ -37,7 +37,7 @@ import model0d as M
 
 HERE = Path(__file__).resolve().parent
 INC = json.loads((HERE / "increments.json").read_text())
-# quench-matched background deltas (quench.py); absent until quench.py has run
+# quench-matched background deltas (quench.py), absent until quench.py has run
 QUENCH = json.loads((HERE / "quench.json").read_text()) if (HERE / "quench.json").exists() else {"runs": {}}
 BQ_PER_PARTICLE = INC["Bq_per_particle"]
 

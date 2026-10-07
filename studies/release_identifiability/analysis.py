@@ -430,7 +430,7 @@ def ov_lag_test(w, floors, n_mc=20000, seed=11, background="published"):
         sims = np.random.default_rng(seed).multivariate_normal(ds.y, S, size=n_mc)
         diffs = np.array([b - a for a, b in (shares(y) for y in sims)])
         lo, hi = float(np.percentile(diffs, 2.5)), float(np.percentile(diffs, 97.5))
-        # a share difference lies in [-1, 1]; an interval wider than 1 or reaching
+        # a share difference lies in [-1, 1], so an interval wider than 1 or reaching
         # outside that range is set by noise, not by the data
         noisy = hi - lo > 1.0 or lo < -1.0 or hi > 1.0
         v = "untestable" if noisy else ("consistent" if lo <= 0 <= hi else "OV late")

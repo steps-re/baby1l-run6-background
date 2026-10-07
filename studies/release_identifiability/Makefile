@@ -2,7 +2,7 @@
 #   make venv             create .venv here from requirements.txt
 #   make data             re-download the raw LSC files (sha256-pinned) and rebuild
 #                         increments.json, quench.json and quench_variants.json with the lab's
-#                         scripts; fails if either differs from the committed one
+#                         scripts, fails if either differs from the committed one
 #   make reproduce-fast   every stage at low replicate counts.
 #                         Overwrites the results, figures, README.md and APPENDIX.md
 #                         with a build stamped DRAFT. Measured 2026-10-07: venv + data +

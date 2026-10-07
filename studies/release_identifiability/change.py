@@ -39,7 +39,7 @@ import model0d as M  # noqa: E402
 OUT = HERE / "change.json"
 RESULTS = HERE / "results.json"
 DAY = 86400.0
-# the 6th to 10th IV sample times (days ~9 to ~27); the second k_top applies from each
+# the 6th to 10th IV sample times (days ~9 to ~27). The second k_top applies from each
 CHANGE_DAYS = tuple(F.INC["runs"]["2"]["streams"]["IV"]["times_day"][5:10])
 
 

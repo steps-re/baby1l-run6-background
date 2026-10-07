@@ -186,7 +186,7 @@ One k_top: 4.86e-8 m/s, IV floor 1.15 Bq. The gain peaks sharply at one sample, 
 
 Column height caveat: the column here is the lab's 1 L model (6.50 cm). The logged salt charge (1.88 kg at 1.5398 g/cm3) fills about 7.96 cm. Diffusive times scale with height squared, so every D threshold in this section would move up by a factor of about 1.50 with the logged charge (see Data and noise model).
 
-Reference values: Calderoni's T in FLiBe, D = 9.3e-7 exp(-42 kJ/mol / RT) at each run's logged salt temperature (Calderoni et al. 2008, doi:10.1016/j.fusengdes.2008.05.016), and 7e-10 m2/s for H2 near 900 K (Nakamura, Fukada and Nishiumi 2015, H2 in Flibe, as compiled in h-transport-materials: 7.1e-10 at 900 K, a short extrapolation of a fit measured at 773 to 873 K). Both are FLiBe numbers. We found no measured value for ClLiF.
+Reference values: Calderoni's T in FLiBe, D = 9.3e-7 exp(-42 kJ/mol / RT) at each run's logged minimum salt temperature (Calderoni et al. 2008, doi:10.1016/j.fusengdes.2008.05.016), and 7e-10 m2/s for H2 near 900 K (Nakamura, Fukada and Nishiumi, J. Plasma Fusion Res. SERIES 11, 25 (2015), eq. 10 for H2 in Flibe, D = 2.09e-8 exp(-25.2 kJ/mol / RT), which gives 7.2e-10 at 900 K, a short extrapolation of data taken at 773 to 873 K). Both are FLiBe numbers. We found no measured value for ClLiF.
 
 | Window | TBR | 95% region for D (m2/s) | 2dNLL at Calderoni | 2dNLL at 7e-10 | 2dNLL well mixed |
 | --- | --- | --- | --- | --- | --- |

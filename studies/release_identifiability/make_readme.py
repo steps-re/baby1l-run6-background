@@ -834,10 +834,11 @@ def main():
       f"threshold in this section would move up by a factor of about {si['diffusivity_scale_height_squared']:.2f} "
       "with the logged charge (see Data and noise model).")
     a("")
-    a("Reference values: Calderoni's T in FLiBe, D = 9.3e-7 exp(-42 kJ/mol / RT) at each run's logged salt "
+    a("Reference values: Calderoni's T in FLiBe, D = 9.3e-7 exp(-42 kJ/mol / RT) at each run's logged minimum salt "
       "temperature (Calderoni et al. 2008, doi:10.1016/j.fusengdes.2008.05.016), and 7e-10 m2/s for H2 near 900 K "
-      "(Nakamura, Fukada and Nishiumi 2015, H2 in Flibe, as compiled in h-transport-materials: 7.1e-10 at 900 K, "
-      "a short extrapolation of a fit measured at 773 to 873 K). Both are FLiBe numbers. We found no measured value for "
+      "(Nakamura, Fukada and Nishiumi, J. Plasma Fusion Res. SERIES 11, 25 (2015), eq. 10 for H2 in Flibe, "
+      "D = 2.09e-8 exp(-25.2 kJ/mol / RT), which gives 7.2e-10 at 900 K, a short extrapolation of data taken at "
+      "773 to 873 K). Both are FLiBe numbers. We found no measured value for "
       "ClLiF.")
     a("")
     a("| Window | TBR | 95% region for D (m2/s) | 2dNLL at Calderoni | 2dNLL at 7e-10 | 2dNLL well mixed |")

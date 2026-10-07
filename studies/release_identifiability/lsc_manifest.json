@@ -1,0 +1,865 @@
+{
+ "_generated": "Written by fetch_lsc.py. Pins for the raw lab files this study reads. Do not edit by hand.",
+ "files": [
+  {
+   "run": 1,
+   "repo": "LIBRA-project/BABY-1L-run-1",
+   "ref": "v0.6",
+   "commit": "85b096f3021f30ed889af53a3645db4c547f6608",
+   "path": "data/general.json",
+   "bytes": 9412,
+   "sha256": "1558d0949e941300984b53b955c3164fafb3ce88ff1d1cdddd9a4e5c1ca029ef",
+   "matches_upstream_manifest": true
+  },
+  {
+   "run": 1,
+   "repo": "LIBRA-project/BABY-1L-run-1",
+   "ref": "v0.6",
+   "commit": "85b096f3021f30ed889af53a3645db4c547f6608",
+   "path": "data/processed_data.json",
+   "bytes": 4679,
+   "sha256": "314e419b5ea7c5457b74eefde04e2c4675f59d906131d4aafc270a4f87a27f43",
+   "matches_upstream_manifest": true
+  },
+  {
+   "run": 1,
+   "repo": "LIBRA-project/BABY-1L-run-1",
+   "ref": "v0.6",
+   "commit": "85b096f3021f30ed889af53a3645db4c547f6608",
+   "path": "analysis/tritium/tritium_model.py",
+   "bytes": 18782,
+   "sha256": "cbe3f4901bf490fe00ccab214a88447fd9596c857e2b2b2edcd3a8cc182476e4",
+   "matches_upstream_manifest": true
+  },
+  {
+   "run": 1,
+   "repo": "LIBRA-project/BABY-1L-run-1",
+   "ref": "v0.6",
+   "commit": "85b096f3021f30ed889af53a3645db4c547f6608",
+   "path": "data/tritium_detection/1L_BL-1_IV-1-5_OV-1-2.csv",
+   "bytes": 2020,
+   "sha256": "686f74fe9da2196ec98f07a15f2089276b57d4c0cc3250ec9daeee5e92dfcdfe",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 1,
+   "repo": "LIBRA-project/BABY-1L-run-1",
+   "ref": "v0.6",
+   "commit": "85b096f3021f30ed889af53a3645db4c547f6608",
+   "path": "data/tritium_detection/1L_BL-1_IV-1-6_OV-1-3.csv",
+   "bytes": 2038,
+   "sha256": "fa4b68f4107111d8005ed0c1c0957d628b79130f27a09e0110befde3de34d075",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 1,
+   "repo": "LIBRA-project/BABY-1L-run-1",
+   "ref": "v0.6",
+   "commit": "85b096f3021f30ed889af53a3645db4c547f6608",
+   "path": "data/tritium_detection/1L_BL-1_IV-1-7_OV-1-4.csv",
+   "bytes": 2020,
+   "sha256": "486f530cb8b41216df66144909831949aed89ae2731c5b8d7d72b4b8c7698d9e",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 1,
+   "repo": "LIBRA-project/BABY-1L-run-1",
+   "ref": "v0.6",
+   "commit": "85b096f3021f30ed889af53a3645db4c547f6608",
+   "path": "data/tritium_detection/1L_BL-1_IV-1-8_OV-1-5_IV-1-9_OV-1-6.csv",
+   "bytes": 2420,
+   "sha256": "20255653638faa590b9b8b57988c603c3ac30894bca5d15c0b8727465f7e7eb8",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 1,
+   "repo": "LIBRA-project/BABY-1L-run-1",
+   "ref": "v0.6",
+   "commit": "85b096f3021f30ed889af53a3645db4c547f6608",
+   "path": "data/tritium_detection/1L_IV_1-2-X.csv",
+   "bytes": 1778,
+   "sha256": "0c30c0f7abcde85a868ad4921576725353837b5b6d38eebde17dde83c1cbc4aa",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 1,
+   "repo": "LIBRA-project/BABY-1L-run-1",
+   "ref": "v0.6",
+   "commit": "85b096f3021f30ed889af53a3645db4c547f6608",
+   "path": "data/tritium_detection/1L_OV_IV_1-0-X_IV_1-1-X.csv",
+   "bytes": 2048,
+   "sha256": "f4a951d9df90ced0095ecd3d6a872df73e68fd37d0a107a53c828912afe61ad7",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 1,
+   "repo": "LIBRA-project/BABY-1L-run-1",
+   "ref": "v0.6",
+   "commit": "85b096f3021f30ed889af53a3645db4c547f6608",
+   "path": "data/tritium_detection/IV_1-3-X_BL-1.csv",
+   "bytes": 1822,
+   "sha256": "1a0161205f1f66095dfacff3a29112c7b7592566f65a002cd7f40a6d53528fcb",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 1,
+   "repo": "LIBRA-project/BABY-1L-run-1",
+   "ref": "v0.6",
+   "commit": "85b096f3021f30ed889af53a3645db4c547f6608",
+   "path": "data/tritium_detection/OV-1-1_with_avg.csv",
+   "bytes": 3022,
+   "sha256": "4874fb7e0d8300c5a7016faa305aadac3bbb309e97cbfcd36fabdc52c3cfc97d",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 1,
+   "repo": "LIBRA-project/BABY-1L-run-1",
+   "ref": "v0.6",
+   "commit": "85b096f3021f30ed889af53a3645db4c547f6608",
+   "path": "data/tritium_detection/Report1.csv",
+   "bytes": 2051,
+   "sha256": "7925c74ea20981c9f48cc7f281196b212e91084f1144c0d8bc97132c5c63c732",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/general.json",
+   "bytes": 18004,
+   "sha256": "0bc9de8f5ec968df9e6dc097effc9148fb9ef94e998b64cfc143b8eac81ade4e",
+   "matches_upstream_manifest": true
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/processed_data.json",
+   "bytes": 7521,
+   "sha256": "2baad5c2a97d0f855d843dfab910d10a62e9b17d0e60f38df98132cd2b212798",
+   "matches_upstream_manifest": true
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "analysis/tritium/tritium_model.py",
+   "bytes": 9699,
+   "sha256": "5efa681d3b21b5628e2d3667fe96ca2a498ce246f77a132218af7b89925329c3",
+   "matches_upstream_manifest": true
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-0_OV-2-0_IV-2-1_IV-2-2.csv",
+   "bytes": 2498,
+   "sha256": "be8370b89c72b34628112f883265b857d21b5015f08f5656f062ce9aa8674a4b",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-10.csv",
+   "bytes": 1941,
+   "sha256": "fca65129b7f836d3fa669337a83f690366f957bbb65885fe63a46065de702fa0",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-10_RE_OV-2-2.csv",
+   "bytes": 2073,
+   "sha256": "ff38bd6890e8c9d9e24b5e0d9413300b1893d68a6663aab714789107d7ae1f5e",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-11.csv",
+   "bytes": 1940,
+   "sha256": "29a4691d539eac01a19bcec55c5a5d49cf2eb78fc52b8ad384c78797f6822e78",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-12.csv",
+   "bytes": 1941,
+   "sha256": "2d0db6d7a6e0e620c6837c69b324c77b0a1be2f6c0e6461aa7f2815d7b07e229",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-13_OV-2-3.csv",
+   "bytes": 2175,
+   "sha256": "3c2a0eb6544c2b517a475128271ce3a116dc1d71263dbfddc5b114b198166650",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-13_OV-2-3_RE.csv",
+   "bytes": 2180,
+   "sha256": "503e88897c1215f752e68bd0661a96fb504d730c06e46c8d85767409900efc8f",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-14_OV-2-4.csv",
+   "bytes": 2177,
+   "sha256": "ff6d6e392f78293b65a9e6c43d032ab6d204b9da98d63805264ac0508bf30604",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-3.csv",
+   "bytes": 1936,
+   "sha256": "d8d9b15ad2116f360fa9aafe6374b65134127ad23d27c7893c30eea7fea85553",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-3_IV-2-4_IV-2-2.csv",
+   "bytes": 2413,
+   "sha256": "600940e46a9103a69692f2eaf00e0a7bea44969ec7b17d5876e0013b794207bc",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-5_OV-2-1.csv",
+   "bytes": 2068,
+   "sha256": "846d7f2938cdbea2ccca528a53ca154207378c49191f13b5b7c78505c7a2c7e5",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-5_OV-2-1_RE.csv",
+   "bytes": 2068,
+   "sha256": "1ee3bd375cb04bd8607e1f53fff4c1c7e6096e0850a607b0ead2cc044e2d6026",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-6.csv",
+   "bytes": 1937,
+   "sha256": "a0916b8e5902b9ca96e87dfdea3d41397610273f46b3893a90fe62b0767bfae9",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-2_IV-2-7_2-8_2-9.csv",
+   "bytes": 2403,
+   "sha256": "05fc523887381cc6794bc9dc6b37aa231847708765c6143c2ec13b8bc57e7635",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 2,
+   "repo": "LIBRA-project/BABY-1L-run-2",
+   "ref": "v0.5",
+   "commit": "67a2022589146c2260dc6892b764d0247962f262",
+   "path": "data/tritium_detection/1L_BL-3_IV-2-12-1_-2_RE.csv",
+   "bytes": 1851,
+   "sha256": "9cb92459ec3c01fc936796874bd887db9f9b1d32be3f5a6d0259d27bed6dd4fa",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/general.json",
+   "bytes": 29787,
+   "sha256": "58ec493ee3d5abc9cf67ea1792cd4e72e7df5dae47f512b10449668344a6a324",
+   "matches_upstream_manifest": true
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/processed_data.json",
+   "bytes": 6760,
+   "sha256": "67fd0a3e90de0416ea7bf77a503dfccff85475f519e616f5956265d6120e21d1",
+   "matches_upstream_manifest": true
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "analysis/tritium/tritium_model.py",
+   "bytes": 10168,
+   "sha256": "fdd6df91833bdf9fb6dcad66317843a9ed918e1265a338b0cc60c37549368c09",
+   "matches_upstream_manifest": true
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-2_IV-3-3.csv",
+   "bytes": 1880,
+   "sha256": "f62813c6a3e088abb717cdc54875f65f26a5f8cf43adbb3a39040c2d07ba9d46",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-2_IV_3-10_OV_3-6.csv",
+   "bytes": 2130,
+   "sha256": "6b564cfcff3539d994cb3a1f4bb2d25777db2fa2d16c0347a63cc58afcc35d54",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-2_IV_3-11_OV_3-7.csv",
+   "bytes": 2131,
+   "sha256": "d2650a105cedb2ee79f0047c9fb8d0a924b47d1b3031912d907f49236a43c727",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-2_IV_3-12_OV_3-8.csv",
+   "bytes": 2130,
+   "sha256": "5669cfa4df078fad9d002820184e3ad608b9eb5b870d6c2088957730c80f495f",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-2_IV_3-13_OV_3-9.csv",
+   "bytes": 2132,
+   "sha256": "a8033b0deafca05788c367291167b9ecf77eead9c5613e87ff3e729b8f8570c5",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-2_IV_3-14_OV_3-10.csv",
+   "bytes": 2135,
+   "sha256": "b4a579cbd6dbd8a55aae5915089045911e90cd272f65fc60c8a87c819b2c81c1",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-2_IV_3-14_OV_3-10_RE.csv",
+   "bytes": 2141,
+   "sha256": "ac7fd3b363a9bfd6b8d0b973350dd7f6a7578ed3cfa71a3beb1a00f54392d751",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-2_IV_3-15_OV_3-11.csv",
+   "bytes": 2136,
+   "sha256": "bac3bd0e354201365525312e6cd36cdfb69898f4d24f0079542662a1e6cd7fd8",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-2_IV_3-16_OV_3-12.csv",
+   "bytes": 2135,
+   "sha256": "66785b049825c5f89d53354dd117e5c908e90178ef079b4cbffd41c0431abd73",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-2_IV_3-16_OV_3-12_RE.csv",
+   "bytes": 2141,
+   "sha256": "ce5d47d6c61bc8b662af30edfc23708dbb1614b23c70c0f85a26db773943cd13",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-2_IV_3-17_OV_3-13.csv",
+   "bytes": 2135,
+   "sha256": "fc842be3832bdaa3f07b477752a821727e07a2222c408bdba98def7505698ead",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-2_IV_3-8_OV_3-4.csv",
+   "bytes": 2124,
+   "sha256": "c6764461e7abb519d01e8c5378b8fa2c881c106286f23e48c4967df1acaa8636",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-2_IV_3-9_OV_3-5.csv",
+   "bytes": 2125,
+   "sha256": "6a840c91ea58dca9af8834f2257ada0b158b5691422c5ef2cf70716c8cbef44e",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-3_IV_3-13_OV_3-9_RE.csv",
+   "bytes": 2138,
+   "sha256": "f43d1c6eff7d4a710dd466cc13458250fa4b70525d5531a821e707a825593274",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_BL-3_IV_3-15_OV_3-11_RE.csv",
+   "bytes": 2141,
+   "sha256": "011d8826771a350e9238b70ff4de4851964e11509b42ca44296fb18244590026",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_IV-3-0_OV-3-0_BL-2.csv",
+   "bytes": 2375,
+   "sha256": "016d60b72f1c0e8c79b9177fd82778671cdc47235d7981ba8da4b6cf8f17d2e6",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_IV-3-2_IV-3-1_OV-3-1_BL-2.csv",
+   "bytes": 2433,
+   "sha256": "a965f9b1d1c3696fe10c3f585b4aaab73d1c9425fbefd67640260fd54bb6ce3c",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_IV-3-4_BL-2_BL-4.csv",
+   "bytes": 1957,
+   "sha256": "e3ccf02528123693c5fe132038ed4095e421f7f3b0df1c71df49b3293b0346ac",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_IV_3-5_3-6_OV_3-2_BL-2.csv",
+   "bytes": 2370,
+   "sha256": "85e1469f7e4ecdd86011c81d8ca67094063f69cc226f235648bc807cc438d08b",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/1L_IV_3-7_OV_3-3_BL-2.csv",
+   "bytes": 2125,
+   "sha256": "cf013544c03f154a3bc4b25f9a0b7e5ff65807d1f766279e506b2f544168909c",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 3,
+   "repo": "LIBRA-project/BABY-1L-run-3",
+   "ref": "v0.2",
+   "commit": "ba532615c673187e5ee1f41a0f6ac00d643c51a2",
+   "path": "data/tritium_detection/SHORT_1L_BL-2_IV_3-9_OV_3-5.csv",
+   "bytes": 2198,
+   "sha256": "a25b5154360dfd9de7471e84b77955602a452f6a2dce862e67a0a94056a5d29b",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/general.json",
+   "bytes": 41521,
+   "sha256": "77fecbd474fa9e478f9847a6bd56582757f0a7b2c4367866d2e76d67df21efaa",
+   "matches_upstream_manifest": true
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/processed_data.json",
+   "bytes": 8199,
+   "sha256": "2e2adb1af6ae07ec287c024bf241809875d519db527b630cb0c62776ee2d903c",
+   "matches_upstream_manifest": true
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "analysis/tritium/tritium_model.py",
+   "bytes": 10339,
+   "sha256": "0e53637a6d2b81ee3101b0eb3987e863dc638d1e44188daeb9284ff230227d94",
+   "matches_upstream_manifest": true
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-10_4-11_OV_4-10_BL-4.csv",
+   "bytes": 2588,
+   "sha256": "75bf79d235bd035135708449908330e2534bbb57ce1b77c84ba03f8ace0d1d0d",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-12_4-13_OV_4-11_BL-4.csv",
+   "bytes": 2388,
+   "sha256": "bc5c7c0f3bc2d6b37e83d05dacbc406b310bec93caeedaf3061e78c44ce5b946",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-14_OV_4-12_BL-4.csv",
+   "bytes": 2135,
+   "sha256": "f1293a8701e14534d1d2d53a4d1cb06e27750b166a1524751629c37739097932",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-15_OV_4-13_BL-4.csv",
+   "bytes": 2445,
+   "sha256": "47febdc3eccb39cec0813aafb46d6693eff0ecea969c305b8251cc7810414f2c",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-16_OV_4-14_BL-4.csv",
+   "bytes": 2384,
+   "sha256": "9e5f7a292046a19245bbe5eb2cc2ecdb7abf43606cc8a1983bfc393c424d7548",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-17_OV_4-15_BL-4.csv",
+   "bytes": 2136,
+   "sha256": "eaeca8843d6436b0b03f403cf752b59e245fd0b860e60449c42d37e2c200f556",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-18_OV_4-16_BL-4.csv",
+   "bytes": 2136,
+   "sha256": "2cc4794610da50cd37c2dcf2b98fa7cedd49e3b0b4bd1d262a612826bedc1fe3",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-19_OV_4-17_BL-4.csv",
+   "bytes": 2139,
+   "sha256": "d58baaec4ca493da252667e1dfd3a659f71fadf22877efe24c1d946964d17d44",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv",
+   "bytes": 2611,
+   "sha256": "63730c06f9a4837e64d220b8a343a4079c82ddbcc0d1ee4da9fd3a1a0f27e0a0",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
+   "bytes": 2624,
+   "sha256": "b6a3f46b76b0680ab80dc79dce4fadc0eb73c60e58763fce9a787da2920f7ff4",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-3_OV_4-3_BL-4.csv",
+   "bytes": 2125,
+   "sha256": "96ba523ac55e2819685521cb58bc71578c12ac05c2d9871dc5c64e165df4a3ad",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-3_OV_4-3_BL-4_SHORT.csv",
+   "bytes": 2117,
+   "sha256": "3ab7a6cc1bd78f6ced259258ca89e2ff45fce08c0967b440081a936192ad9313",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-4_OV_4-4_BL-4.csv",
+   "bytes": 2123,
+   "sha256": "bde731175b2fd98d236c9b1cef5e0a3bc314696afe8954dbbadc9c0d773ea74e",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-4_OV_4-4_BL-4_SHORT.csv",
+   "bytes": 2126,
+   "sha256": "b3094f563930278f0d89724f3534179b4292453fd38f908a98363e2aa1b3fcbd",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-5_OV_4-5_BL-4.csv",
+   "bytes": 2123,
+   "sha256": "b43a75120dc2d7afe6c21815cae8bb9c334de2e4d16d7337e89e59f6c337ec3d",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-5_OV_4-5_BL-4_RE.csv",
+   "bytes": 2129,
+   "sha256": "8f4cfb7e00b143eb892b52f4a08bb64b84e5d486382fb67ee35840972ce0de0e",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-6_4-7_OV_4-6_4-7_BL-4.csv",
+   "bytes": 2612,
+   "sha256": "cb5169cc14c8d7d08b453ac4cfca7b9483820c4fffde9fd7d5d75fb33ac5f424",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-8_OV_4-8_BL-4.csv",
+   "bytes": 2125,
+   "sha256": "bf7195a0b830840ddfcde92b154ce91ed54daf57a58f9085bd5ecc0b65621440",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 4,
+   "repo": "LIBRA-project/BABY-1L-run-4",
+   "ref": "v0.1",
+   "commit": "cca792fb9b4bb3a0a1f49ef76ced9ebcb144f051",
+   "path": "data/tritium_detection/1L_IV_4-9_OV_4-9_BL-4.csv",
+   "bytes": 2123,
+   "sha256": "09e76bbe2168f195be3043f75b29bc386b67863d3b460f2801251bda8d7c4812",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 6,
+   "repo": "LIBRA-project/BABY-1L-run-6",
+   "ref": "82c5af9",
+   "commit": "82c5af999e43d4855f1e1400c2c455c4fb10fe5e",
+   "path": "data/general.json",
+   "bytes": 16152,
+   "sha256": "ffa862ddb8f54525b8c7e2985f4d32790486547f1738ad430d0d322f8de5a480",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 6,
+   "repo": "LIBRA-project/BABY-1L-run-6",
+   "ref": "82c5af9",
+   "commit": "82c5af999e43d4855f1e1400c2c455c4fb10fe5e",
+   "path": "data/processed_data.json",
+   "bytes": 3613,
+   "sha256": "bb03348e6cc43724b280d4f61b501ec210a4496e97ab035d617ac1830fc9489b",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 6,
+   "repo": "LIBRA-project/BABY-1L-run-6",
+   "ref": "82c5af9",
+   "commit": "82c5af999e43d4855f1e1400c2c455c4fb10fe5e",
+   "path": "analysis/tritium/tritium_model.py",
+   "bytes": 12786,
+   "sha256": "40b0dbf52f4f6d7005da3d613a2c47d69858d5b7f820424cc2fd123e4b523b17",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 6,
+   "repo": "LIBRA-project/BABY-1L-run-6",
+   "ref": "82c5af9",
+   "commit": "82c5af999e43d4855f1e1400c2c455c4fb10fe5e",
+   "path": "data/tritium_detection/1L_IV_6-1_6-2_6-3_OV_6-1.csv",
+   "bytes": 2538,
+   "sha256": "0bdf7522aff33f51a6a4276bc18345786e35774dcd6dead8670cadcb422e9af5",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 6,
+   "repo": "LIBRA-project/BABY-1L-run-6",
+   "ref": "82c5af9",
+   "commit": "82c5af999e43d4855f1e1400c2c455c4fb10fe5e",
+   "path": "data/tritium_detection/1L_IV_6-4.csv",
+   "bytes": 1802,
+   "sha256": "61a202981b0d5abdb9f63e68b31b9b604ba270cdb60618ba7e105699bea7b3b8",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 6,
+   "repo": "LIBRA-project/BABY-1L-run-6",
+   "ref": "82c5af9",
+   "commit": "82c5af999e43d4855f1e1400c2c455c4fb10fe5e",
+   "path": "data/tritium_detection/1L_IV_6-4_SHORT.csv",
+   "bytes": 1946,
+   "sha256": "36bffdea135d3d92b0413836e224cf59a49d7ff0fee852ef3843a4e5fe4f85de",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 6,
+   "repo": "LIBRA-project/BABY-1L-run-6",
+   "ref": "82c5af9",
+   "commit": "82c5af999e43d4855f1e1400c2c455c4fb10fe5e",
+   "path": "data/tritium_detection/1L_IV_6-5_OV_6-2.csv",
+   "bytes": 2046,
+   "sha256": "ba0c8f82e520c931644a7a459b304eccbff81df50039ea95eae1e1e9878b7837",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 6,
+   "repo": "LIBRA-project/BABY-1L-run-6",
+   "ref": "82c5af9",
+   "commit": "82c5af999e43d4855f1e1400c2c455c4fb10fe5e",
+   "path": "data/tritium_detection/1L_IV_6-5_OV_6-2_SHORT.csv",
+   "bytes": 2049,
+   "sha256": "98167dae1867236b56fa1dc281996bf4174bc5f8b1d09f34b9d66395709eedc6",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 6,
+   "repo": "LIBRA-project/BABY-1L-run-6",
+   "ref": "82c5af9",
+   "commit": "82c5af999e43d4855f1e1400c2c455c4fb10fe5e",
+   "path": "data/tritium_detection/1L_IV_6-6_OV_6-3.csv",
+   "bytes": 2046,
+   "sha256": "2eee6a6c8b7da8074a891cfe6d78384196e3137c3cec625d283986327a0e7c28",
+   "matches_upstream_manifest": null
+  },
+  {
+   "run": 6,
+   "repo": "LIBRA-project/BABY-1L-run-6",
+   "ref": "82c5af9",
+   "commit": "82c5af999e43d4855f1e1400c2c455c4fb10fe5e",
+   "path": "data/tritium_detection/SLR_BLANK_SCAN.csv",
+   "bytes": 1945,
+   "sha256": "fac8d377e96dbfb62868d4714c8bf22e310f022948f49b4cd5ccc5a99ab15873",
+   "matches_upstream_manifest": null
+  }
+ ]
+}

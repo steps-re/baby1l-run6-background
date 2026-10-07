@@ -1,0 +1,606 @@
+# GENERATED FILE. Do not edit by hand.
+# Built by tools/gen_case_yaml.py from the lab's files at pinned refs (see sources).
+# Every value carries origin (lab | ours | lit) and a locator. Rebuild with: make case
+# Check it is current with: make cheap
+schema_version: 1
+case:
+  id: baby-1l-run-1
+  run: 1
+  description: Pure 1 L ClLiF, test run
+  salt: ClLiF
+  lab_repo: LIBRA-project/BABY-1L-run-1
+  lab_tag: v0.6
+  lab_commit: 85b096f3021f30ed889af53a3645db4c547f6608
+  lab_doi_concept: 10.5281/zenodo.14317601
+  lab_doi_version: 10.5281/zenodo.17160928
+  toolbox_repo: LIBRA-project/libra-toolbox
+  toolbox_commit: cb41e93172a50ef24e4df42f622ceaa5e66206cf
+  generated_by: tools/gen_case_yaml.py
+  origin_literals:
+  - lab
+  - ours
+  - lit
+sources:
+- repo: LIBRA-project/BABY-1L-run-1
+  ref: v0.6
+  commit: 85b096f3021f30ed889af53a3645db4c547f6608
+  path: data/processed_data.json
+  url: https://raw.githubusercontent.com/LIBRA-project/BABY-1L-run-1/refs/tags/v0.6/data/processed_data.json
+  sha256: 314e419b5ea7c5457b74eefde04e2c4675f59d906131d4aafc270a4f87a27f43
+- repo: LIBRA-project/BABY-1L-run-1
+  ref: v0.6
+  commit: 85b096f3021f30ed889af53a3645db4c547f6608
+  path: data/general.json
+  url: https://raw.githubusercontent.com/LIBRA-project/BABY-1L-run-1/refs/tags/v0.6/data/general.json
+  sha256: 1558d0949e941300984b53b955c3164fafb3ce88ff1d1cdddd9a4e5c1ca029ef
+- repo: LIBRA-project/BABY-1L-run-1
+  ref: v0.6
+  commit: 85b096f3021f30ed889af53a3645db4c547f6608
+  path: analysis/neutron/openmc_model.py
+  url: https://raw.githubusercontent.com/LIBRA-project/BABY-1L-run-1/refs/tags/v0.6/analysis/neutron/openmc_model.py
+  sha256: 46f70074fbc3d4dbd125957e977817209d5abf90f90eb69ffcdb8054773a8e3c
+- repo: LIBRA-project/BABY-1L-run-1
+  ref: v0.6
+  commit: 85b096f3021f30ed889af53a3645db4c547f6608
+  path: analysis/tritium/tritium_model.py
+  url: https://raw.githubusercontent.com/LIBRA-project/BABY-1L-run-1/refs/tags/v0.6/analysis/tritium/tritium_model.py
+  sha256: cbe3f4901bf490fe00ccab214a88447fd9596c857e2b2b2edcd3a8cc182476e4
+- repo: LIBRA-project/BABY-1L-run-1
+  ref: v0.5
+  commit: 9daf4b255b1a46967d80c031d5a84cf6b3df2ebd
+  path: data/processed_data.json
+  url: https://raw.githubusercontent.com/LIBRA-project/BABY-1L-run-1/refs/tags/v0.5/data/processed_data.json
+  sha256: a6e86373745cc1091bbaebc20836a842a671396830b0b9f489c68b8315d2ad0c
+- repo: LIBRA-project/libra-toolbox
+  ref: cb41e93
+  commit: cb41e93172a50ef24e4df42f622ceaa5e66206cf
+  path: libra_toolbox/neutronics/materials.py
+  url: https://raw.githubusercontent.com/LIBRA-project/libra-toolbox/cb41e93172a50ef24e4df42f622ceaa5e66206cf/libra_toolbox/neutronics/materials.py
+  sha256: 6073757370c00fafb2d813f1fc42f8b7c2564bee98d1bddc2b5654f872a4acb1
+- repo: LIBRA-project/libra-toolbox
+  ref: cb41e93
+  commit: cb41e93172a50ef24e4df42f622ceaa5e66206cf
+  path: libra_toolbox/neutronics/vault.py
+  url: https://raw.githubusercontent.com/LIBRA-project/libra-toolbox/cb41e93172a50ef24e4df42f622ceaa5e66206cf/libra_toolbox/neutronics/vault.py
+  sha256: 513a838ee3bfa7d725780685244a0007cb3184d455e4f84c27c880cd6923bfc5
+- repo: LIBRA-project/libra-toolbox
+  ref: cb41e93
+  commit: cb41e93172a50ef24e4df42f622ceaa5e66206cf
+  path: libra_toolbox/neutronics/neutron_source.py
+  url: https://raw.githubusercontent.com/LIBRA-project/libra-toolbox/cb41e93172a50ef24e4df42f622ceaa5e66206cf/libra_toolbox/neutronics/neutron_source.py
+  sha256: 9e2d747130a92c700adca415a0d5df49249fc68fb028a4d92f13ccadcd8696ca
+- repo: LIBRA-project/libra-toolbox
+  ref: cb41e93
+  commit: cb41e93172a50ef24e4df42f622ceaa5e66206cf
+  path: libra_toolbox/tritium/model.py
+  url: https://raw.githubusercontent.com/LIBRA-project/libra-toolbox/cb41e93172a50ef24e4df42f622ceaa5e66206cf/libra_toolbox/tritium/model.py
+  sha256: 371369005d0578df72e5e67c0c19c5c617f7f72903f467483c4cece46333dbdd
+- repo: LIBRA-project/libra-toolbox
+  ref: cb41e93
+  commit: cb41e93172a50ef24e4df42f622ceaa5e66206cf
+  path: libra_toolbox/neutronics/A325_generator_diamond.h5
+  url: https://raw.githubusercontent.com/LIBRA-project/libra-toolbox/cb41e93172a50ef24e4df42f622ceaa5e66206cf/libra_toolbox/neutronics/A325_generator_diamond.h5
+  sha256: 01dee7e67511ba1124ae4215fe7b0c636df2001bcfc8669b2cc622f3badcc288
+variants:
+  lab:
+    salt_mass_kg:
+      value: 1.53977777063
+      unit: kg
+      origin: ours
+      locator: tools/gen_case_yaml.py#lab_salt_mass, salt_volume_cm3 * density_g_cm3 * 1e-3
+      note: Molten salt mass inside the committed OpenMC geometry at 650 C (about 1.54 kg).
+    salt_height_cm:
+      value: 6.51822
+      unit: cm
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_geometry.cllif_thickness
+      note: Salt column height as committed by the lab.
+  best_estimate:
+    salt_mass_kg:
+      value: 1.88
+      unit: kg
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:data/general.json#general_data.salt_mass
+      note: Charged salt mass recorded in general.json.
+    salt_height_cm:
+      value: 7.95922200189
+      unit: cm
+      origin: ours
+      locator: tools/gen_case_yaml.py#best_estimate_salt_height, (salt_mass / density - pi * r_h^2 * heater_gap)
+        / (pi * (r_s^2 - r_h^2))
+      note: Salt column height required to contain the 1.88 kg charged mass at 650 C density (about 7.959 cm).
+geometry:
+  salt_radius_cm:
+    value: 7.0
+    unit: cm
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_geometry.cllif_radius
+  salt_thickness_cm:
+    value: 6.51822
+    unit: cm
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_geometry.cllif_thickness
+    note: The lab writes it as 6.388 + 0.13022. The sum is what OpenMC sees.
+  salt_bottom_z_cm:
+    value: 107.401
+    unit: cm
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_geometry.cllif_region lower ZPlane, absolute
+      in the vault frame
+  salt_top_z_cm:
+    value: 113.91922
+    unit: cm
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_geometry.cllif_region upper ZPlane, absolute
+      in the vault frame
+  heater_radius_cm:
+    value: 0.439
+    unit: cm
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_geometry.heater_r
+  heater_bottom_z_cm:
+    value: 108.279
+    unit: cm
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_geometry.heater_z, absolute in the vault frame
+  heater_height_cm:
+    value: 25.4
+    unit: cm
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_geometry.heater_h
+  heater_overlap_with_salt_cm:
+    value: 5.64022
+    unit: cm
+    origin: ours
+    locator: tools/gen_case_yaml.py#heater_overlap, min(salt_top, heater_top) - max(salt_bottom, heater_bottom)
+  salt_volume_cm3:
+    value: 999.987135108
+    unit: cm3
+    origin: ours
+    locator: tools/gen_case_yaml.py#salt_volume, pi * (r_salt^2 * thickness - r_heater^2 * heater_overlap)
+    note: Volume of the OpenMC salt cell with the re-entrant heater removed. This is V for the R0 balance.
+  salt_volume_full_cylinder_cm3:
+    value: 1003.40201126
+    unit: cm3
+    origin: ours
+    locator: tools/gen_case_yaml.py#salt_volume_full, pi * r_salt^2 * thickness
+  inconel_radius_cm:
+    value: 7.3
+    unit: cm
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_geometry.inconel_radius
+  baby_centre_cm:
+    value:
+    - 587
+    - 60
+    - 100
+    unit: cm
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_model.x_c,y_c,z_c, vault frame
+  lab_0d_model_radius_cm:
+    value: 7.0
+    unit: cm
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/tritium/tritium_model.py#baby_diameter / 2
+    note: The lab's 0D release model uses a 14 cm diameter cylinder, flagged TODO confirm with CAD in the lab file.
+  lab_0d_model_height_cm:
+    value: 6.49612012619981
+    unit: cm
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/processed_data.json#modelled_baby_height, converted from L/cm2 to cm
+    note: 1 L over pi * 7^2 cm2. Differs from salt_thickness_cm, which is what the OpenMC cell uses.
+material:
+  name:
+    value: ClLiF
+    unit: null
+    origin: lab
+    locator: libra-toolbox@cb41e93:libra_toolbox/neutronics/materials.py#Cllif
+  licl_mol_fraction:
+    value: 0.695
+    unit: mol/mol
+    origin: lab
+    locator: libra-toolbox@cb41e93:libra_toolbox/neutronics/materials.py#LiCl_frac
+  atom_fractions:
+    F:
+      value: 0.1525
+      unit: atom fraction
+      origin: lab
+      locator: libra-toolbox@cb41e93:libra_toolbox/neutronics/materials.py#Cllif.add_element(F), evaluated from
+        the lab's expression in LiCl_frac
+    Li:
+      value: 0.5
+      unit: atom fraction
+      origin: lab
+      locator: libra-toolbox@cb41e93:libra_toolbox/neutronics/materials.py#Cllif.add_element(Li), evaluated from
+        the lab's expression in LiCl_frac
+    Cl:
+      value: 0.3475
+      unit: atom fraction
+      origin: lab
+      locator: libra-toolbox@cb41e93:libra_toolbox/neutronics/materials.py#Cllif.add_element(Cl), evaluated from
+        the lab's expression in LiCl_frac
+  lithium_isotopics:
+    value: natural
+    unit: null
+    origin: lab
+    locator: libra-toolbox@cb41e93:libra_toolbox/neutronics/materials.py#Cllif.add_element(Li), OpenMC expands the
+      element with its built-in natural abundances
+    note: No enrichment. The Li-6 abundance is whatever the OpenMC build's abundance table says. Phase B varies
+      it.
+  density_g_cm3:
+    value: 1.5397975799648005
+    unit: g/cm3
+    origin: lab
+    locator: libra-toolbox@cb41e93:libra_toolbox/neutronics/materials.py#get_exp_cllif_density(650), evaluated from
+      the lab's function
+    note: Janz correlation as coded by the lab, at the temperature below.
+  density_temperature_c:
+    value: 650
+    unit: degC
+    origin: lab
+    locator: libra-toolbox@cb41e93:libra_toolbox/neutronics/materials.py#Cllif.set_density argument
+    note: The lab's docstring states the correlation is valid for 660 C to 1000 C.
+  density_correlation:
+    value: Janz, Tomkins, Allen 1979, Molten Salts Vol 4 Part 4
+    unit: null
+    origin: lit
+    locator: doi:10.1063/1.555590
+    note: Coefficients are copied in the lab's function. Not re-derived here.
+  salt_mass_charged_kg:
+    value: 1.88
+    unit: kg
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/general.json#general_data.salt_mass
+  salt_temperature_min_c:
+    value: 627
+    unit: degC
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/general.json#general_data.temperature_salt
+    note: minimum, temperature is non-uniform
+source:
+  name:
+    value: A325_generator_diamond
+    unit: null
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_model, imported from libra_toolbox.neutronics.neutron_source
+  position_cm:
+    value:
+    - 587
+    - 60
+    - 94.365
+    unit: cm
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_model A325_generator_diamond first argument,
+      evaluated as (x_c, y_c, z_c - 5.635)
+  offset_from_baby_centre_cm:
+    value:
+    - 0
+    - 0
+    - -5.635
+    unit: cm
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_model, position minus (x_c, y_c, z_c)
+  direction:
+    value:
+    - 1
+    - 0
+    - 0
+    unit: null
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_model A325_generator_diamond second argument,
+      polar axis of the angular table
+  salt_bottom_above_source_cm:
+    value: 13.036
+    unit: cm
+    origin: ours
+    locator: tools/gen_case_yaml.py, salt_bottom_z_cm minus source z
+  spectrum_file:
+    value: A325_generator_diamond.h5
+    unit: null
+    origin: lab
+    locator: libra-toolbox@cb41e93:libra_toolbox/neutronics/A325_generator_diamond.h5
+  spectrum_file_sha256:
+    value: 01dee7e67511ba1124ae4215fe7b0c636df2001bcfc8669b2cc622f3badcc288
+    unit: null
+    origin: lab
+    locator: libra-toolbox@cb41e93:libra_toolbox/neutronics/A325_generator_diamond.h5
+  spectrum_file_bytes:
+    value: 225304
+    unit: byte
+    origin: lab
+    locator: libra-toolbox@cb41e93:libra_toolbox/neutronics/A325_generator_diamond.h5
+  total_strength:
+    value: 1.0
+    unit: per source neutron
+    origin: lab
+    locator: libra-toolbox@cb41e93:libra_toolbox/neutronics/neutron_source.py#A325_generator_diamond, yields normalised
+      to sum 1
+  generator:
+    value: A-325
+    unit: null
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/general.json#generators[enabled].name
+  generator_gap_note:
+    value: A-325 positioned under the fume hood work surface, cooled with combined blower airflow from the side
+      and small fan from the front. Gap between bottom surface of epoxy and the generator about 1/2". Briefly interrupted
+      to reset PRT.
+    unit: null
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/general.json#notes
+irradiation:
+  t0:
+    value: '2024-11-04T10:07:00'
+    unit: local wall clock, no zone in the lab file
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/general.json#generators[enabled].periods, earliest start
+  windows_s:
+  - start:
+      value: 0.0
+      unit: s
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:data/processed_data.json#irradiations[0].start_time
+    stop:
+      value: 35580.0
+      unit: s
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:data/processed_data.json#irradiations[0].stop_time
+    wall_clock:
+      value:
+      - '2024-11-04T10:07:00'
+      - '2024-11-04T20:00:00'
+      unit: null
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:data/general.json#generators[enabled].periods[0]
+  - start:
+      value: 36000.0
+      unit: s
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:data/processed_data.json#irradiations[1].start_time
+    stop:
+      value: 43620.0
+      unit: s
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:data/processed_data.json#irradiations[1].stop_time
+    wall_clock:
+      value:
+      - '2024-11-04T20:07:00'
+      - '2024-11-04T22:14:00'
+      unit: null
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:data/general.json#generators[enabled].periods[1]
+  windows_check:
+    value: general.json periods reproduce processed_data.json irradiations exactly
+    unit: null
+    origin: ours
+    locator: tools/gen_case_yaml.py#windows_from_general
+  total_irradiation_s:
+    value: 43200.0
+    unit: s
+    origin: ours
+    locator: tools/gen_case_yaml.py, sum of stop - start over windows_s
+  neutron_rate:
+    value: 86530552.73758036
+    unit: n/s
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/processed_data.json#neutron_rate_used_in_model.value
+    note: The rate the lab's release model used at v0.6.
+  neutron_rate_error:
+    value: 17388320.66367758
+    unit: n/s
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/processed_data.json#neutron_rate_used_in_model.error
+  measured_neutron_rate:
+    value: 91460000.0
+    unit: n/s
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/processed_data.json#measured_neutron_rate.value
+    note: Also in the v0.6 file. It was the rate used in the model at v0.5.
+tbr:
+  modelled_mean:
+    value: 0.0020800110159729097
+    unit: T per source neutron
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/processed_data.json#modelled_TBR.mean
+  modelled_std_dev:
+    value: 2.7492246694554562e-05
+    unit: T per source neutron
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/processed_data.json#modelled_TBR.std_dev
+  modelled_histories:
+    value: 1000000
+    unit: source particles
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_model settings.batches * settings.particles
+    note: Run by the lab's CI. Seeds are not recorded, so digits are not reproducible, only the value within its
+      error.
+  measured:
+    value: 0.00252713110890282
+    unit: particle / neutron
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/processed_data.json#measured_TBR.value
+  lab_tbr_used_in_release_model:
+    value: 0.00252713110890282
+    unit: particle / neutron
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/processed_data.json#TBR_used_in_model.value
+  lab_tbr_argument:
+    value: measured_TBR
+    unit: null
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/tritium/tritium_model.py#Model(TBR=...)
+    note: Which variable the lab passed to its 0D model for run 1.
+history:
+  note: Values that changed between the previous tag and the pinned one. Both rows stay (SPEC.md section 4).
+  previous_tag: v0.5
+  neutron_rate_used_in_model_previous:
+    value: 91460000.0
+    unit: n/s
+    origin: lab
+    locator: BABY-1L-run-1@v0.5:data/processed_data.json#neutron_rate_used_in_model.value
+  modelled_tbr_mean_previous:
+    value: 0.0020419073550656465
+    unit: T per source neutron
+    origin: lab
+    locator: BABY-1L-run-1@v0.5:data/processed_data.json#modelled_TBR.mean
+  modelled_tbr_std_dev_previous:
+    value: 2.790358334510746e-05
+    unit: T per source neutron
+    origin: lab
+    locator: BABY-1L-run-1@v0.5:data/processed_data.json#modelled_TBR.std_dev
+  measured_tbr_previous:
+    value: 0.002390925559738634
+    unit: particle / neutron
+    origin: lab
+    locator: BABY-1L-run-1@v0.5:data/processed_data.json#measured_TBR.value
+openmc:
+  lab_settings:
+    batches:
+      value: 100
+      unit: null
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_model settings.batches
+    inactive:
+      value: 0
+      unit: null
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_model settings.inactive
+    particles:
+      value: 10000
+      unit: null
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_model settings.particles
+    photon_transport:
+      value: false
+      unit: null
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_model settings.photon_transport
+    run_mode:
+      value: fixed source
+      unit: null
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_model settings.run_mode
+  lab_tally_scores:
+    value:
+    - (n,Xt)
+    unit: null
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/neutron/openmc_model.py#baby_model tbr_tally.scores, CellFilter on the
+      salt cell
+  vault_model:
+    value: libra_toolbox.neutronics.vault.build_vault_model
+    unit: null
+    origin: lab
+    locator: libra-toolbox@cb41e93:libra_toolbox/neutronics/vault.py
+  cheap_histories:
+    value: 100000
+    unit: source particles
+    origin: ours
+    locator: SPEC.md#6 Cross-code plan, make cheap runs 1e5 histories
+  cheap_acceptance_sigma:
+    value: 3
+    unit: sigma
+    origin: ours
+    locator: SPEC.md#2 Definition of done, within 3 sigma of the lab's tally
+  nuclear_data_library:
+    value: ENDF/B-VIII.0
+    unit: null
+    origin: ours
+    locator: SPEC.md#3 Package layout, Dockerfile
+    note: The lab's environment.yml at v0.6 names openmc_data_downloader but no library, so the lab's library is
+      not pinned.
+sampling:
+  IV:
+    times_day:
+      value:
+      - 1.1006944444444444
+      - 2.9458333333333333
+      - 6.143055555555555
+      - 9.183333333333334
+      - 14.147916666666665
+      - 19.258333333333333
+      - 25.066666666666666
+      - 32.17708333333333
+      - 35.0875
+      unit: day
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:data/processed_data.json#cumulative_tritium_release.IV.sampling_times.value
+    n_samples:
+      value: 9
+      unit: null
+      origin: ours
+      locator: tools/gen_case_yaml.py, length of times_day
+    release_data_file: case/release_data/run-1-IV.csv (rebuilt from the vendored LSC files by a later slice)
+  OV:
+    times_day:
+      value:
+      - 9.183333333333334
+      - 14.147916666666665
+      - 19.258333333333333
+      - 25.066666666666666
+      - 32.17708333333333
+      - 35.0875
+      unit: day
+      origin: lab
+      locator: BABY-1L-run-1@v0.6:data/processed_data.json#cumulative_tritium_release.OV.sampling_times.value
+    n_samples:
+      value: 6
+      unit: null
+      origin: ours
+      locator: tools/gen_case_yaml.py, length of times_day
+    release_data_file: case/release_data/run-1-OV.csv (rebuilt from the vendored LSC files by a later slice)
+release:
+  which_TBR_drives_release:
+    value: modelled
+    unit: null
+    origin: ours
+    locator: SPEC.md#4 Provenance
+    note: Default here is the modelled TBR. The lab fed run 1 with the measured TBR (tbr.lab_tbr_argument). measured
+      is a labelled variant.
+  depth_cm:
+    value: 6.51822
+    unit: cm
+    origin: ours
+    locator: 'SPEC.md#5 and #6, the OpenMC salt cell height is the R1 column depth'
+    note: Same number as geometry.salt_thickness_cm. The lab's 0D model used geometry.lab_0d_model_height_cm instead.
+  k_top_m_s:
+    value: 8.9e-08
+    unit: meter / second
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/processed_data.json#k_top.value
+    note: Lab hand-set constant for run 1 (analysis/tritium/tritium_model.py sets it as a literal, not an optimization
+      fit).
+  k_wall_m_s:
+    value: 1.5130000000000003e-09
+    unit: meter / second
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:data/processed_data.json#k_wall.value
+    note: Lab hand-set constant, k_wall = optimised_ratio * k_top.
+  k_wall_over_k_top:
+    value: 0.017
+    unit: null
+    origin: lab
+    locator: BABY-1L-run-1@v0.6:analysis/tritium/tritium_model.py#optimised_ratio
+  lab_0d_wall_thickness_inch:
+    value: 0.06
+    unit: inch
+    origin: lab
+    locator: libra-toolbox@cb41e93:libra_toolbox/tritium/model.py#Model.__init__ L_wall
+    note: Enters A_wall in the lab's 0D model.
+  tritium_specific_activity_bq_g:
+    value: 357000000000000.0
+    unit: Bq/g
+    origin: lab
+    locator: libra-toolbox@cb41e93:libra_toolbox/tritium/model.py#SPECIFIC_ACT
+    note: Used by the lab to convert LSC activity to atoms.
+  tritium_molar_mass_g_mol:
+    value: 3.016
+    unit: g/mol
+    origin: lab
+    locator: libra-toolbox@cb41e93:libra_toolbox/tritium/model.py#MOLAR_MASS, written as 6.032 / 2
+  tritium_half_life_y:
+    value: 12.32
+    unit: year
+    origin: lit
+    locator: doi:10.6028/jres.105.043 Lucas and Unterweger 2000, J. Res. NIST 105(4) 541-549, recommended half-life
+      4500 d = 12.32 y
+    note: SPEC.md section 6 takes lambda from 12.32 y. The lab's 0D model has no decay term.

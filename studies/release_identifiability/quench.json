@@ -1,0 +1,540 @@
+{
+ "_generated": "Written by quench.py. Do not edit by hand.",
+ "scan": {
+  "file": "BABY-1L-run-6/data/tritium_detection/SLR_BLANK_SCAN.csv",
+  "sha256": "fac8d377e96dbfb62868d4714c8bf22e310f022948f49b4cd5ccc5a99ab15873",
+  "points_tSIE_Bq_sigma": [
+   [
+    277.97,
+    0.306,
+    0.01460458317304244
+   ],
+   [
+    293.79,
+    0.266,
+    0.013233994629792857
+   ],
+   [
+    307.31,
+    0.263,
+    0.012863750485570837
+   ],
+   [
+    324.41,
+    0.237,
+    0.011955068553636043
+   ],
+   [
+    364.72,
+    0.205,
+    0.010686363720425082
+   ],
+   [
+    420.38,
+    0.181,
+    0.009606482553060382
+   ],
+   [
+    488.69,
+    0.17,
+    0.009099891368727218
+   ]
+  ],
+  "quench_set": "Low Energy: 3H-UG-LLT-NM-C"
+ },
+ "increments_sha256": "1c19c0324d3d7dca2c857c0675febed6d5b63fdc9225303f6448cd14e0da6811",
+ "n_mc": 2000,
+ "seed": 20261007,
+ "high_tSIE": 330.0,
+ "runs": {
+  "1": {
+   "quench_set": [
+    "Low Energy: 3H-UG-LLT-NM"
+   ],
+   "measured_TBR_published": 0.00252713110890282,
+   "high_tSIE_vials": 11,
+   "high_tSIE_vials_by_position": {
+    "IV1": 6,
+    "IV2": 0,
+    "IV3": 0,
+    "IV4": 0,
+    "OV1": 5,
+    "OV2": 0,
+    "OV3": 0,
+    "OV4": 0
+   },
+   "vials_beyond_scan_tSIE": 2,
+   "blank_minus_curve_at_blank_tSIE_Bq": {
+    "median": 0.08088242730720596,
+    "min": 0.061375474083438686,
+    "max": 0.09176864728192158
+   },
+   "published": {
+    "IV": {
+     "total_Bq": 16.121,
+     "soluble_share": 0.027107499534768313
+    },
+    "OV": {
+     "total_Bq": 0.7690000000000001,
+     "soluble_share": 0.5214564369310792
+    },
+    "IV_plus_OV_Bq": 16.89,
+    "sd": {
+     "IV_total_Bq": 0.18024060992728622,
+     "OV_total_Bq": 0.11120235795289318,
+     "IV_plus_OV_Bq": 0.257705650117557,
+     "IV_soluble_share": 0.0041369998925525585,
+     "OV_soluble_share": 0.04357383513322282
+    },
+    "diagnostics": {
+     "negative_vials": 14,
+     "vials": 60,
+     "low_activity_vials": 46,
+     "slope_Bq_per_100_tSIE": -0.06020829010026784,
+     "mean_net_low_activity_high_tSIE_Bq": -0.03363636363636364,
+     "mean_net_low_activity_low_tSIE_Bq": 0.03905714285714286
+    }
+   },
+   "anchored_delta_Bq": null,
+   "reason": "counted with quench set 3H-UG-LLT-NM, not the -NM-C set of the run-6 blank scan; CPMA exported as whole counts; in-file blanks sit above the scan curve. A correction needs a blank scan with this quench set."
+  },
+  "2": {
+   "quench_set": [
+    "Low Energy: 3H-UG-LLT-NM"
+   ],
+   "measured_TBR_published": 0.002147162371154993,
+   "high_tSIE_vials": 13,
+   "high_tSIE_vials_by_position": {
+    "IV1": 9,
+    "IV2": 0,
+    "IV3": 0,
+    "IV4": 0,
+    "OV1": 4,
+    "OV2": 0,
+    "OV3": 0,
+    "OV4": 0
+   },
+   "vials_beyond_scan_tSIE": 0,
+   "blank_minus_curve_at_blank_tSIE_Bq": {
+    "median": 0.11764348925410861,
+    "min": 0.09405183312262944,
+    "max": 0.27173324905183316
+   },
+   "published": {
+    "IV": {
+     "total_Bq": 93.98700000000001,
+     "soluble_share": 0.007649994148126866
+    },
+    "OV": {
+     "total_Bq": 1.9209999999999998,
+     "soluble_share": 0.657470067673087
+    },
+    "IV_plus_OV_Bq": 95.90800000000002,
+    "sd": {
+     "IV_total_Bq": 0.3469319622546193,
+     "OV_total_Bq": 0.12510846256251854,
+     "IV_plus_OV_Bq": 0.3971082485603186,
+     "IV_soluble_share": 0.001065297139547204,
+     "OV_soluble_share": 0.019757886890638808
+    },
+    "diagnostics": {
+     "negative_vials": 25,
+     "vials": 80,
+     "low_activity_vials": 54,
+     "slope_Bq_per_100_tSIE": -0.07621535603674007,
+     "mean_net_low_activity_high_tSIE_Bq": -0.02707692307692309,
+     "mean_net_low_activity_low_tSIE_Bq": 0.03580487804878048
+    }
+   },
+   "anchored_delta_Bq": null,
+   "reason": "counted with quench set 3H-UG-LLT-NM, not the -NM-C set of the run-6 blank scan; CPMA exported as whole counts; in-file blanks sit above the scan curve. A correction needs a blank scan with this quench set."
+  },
+  "3": {
+   "quench_set": [
+    "Low Energy: 3H-UG-LLT-NM-C"
+   ],
+   "measured_TBR_published": 0.004026111427599595,
+   "high_tSIE_vials": 26,
+   "high_tSIE_vials_by_position": {
+    "IV1": 13,
+    "IV2": 0,
+    "IV3": 0,
+    "IV4": 0,
+    "OV1": 12,
+    "OV2": 1,
+    "OV3": 0,
+    "OV4": 0
+   },
+   "vials_beyond_scan_tSIE": 2,
+   "blank_minus_curve_at_blank_tSIE_Bq": {
+    "median": 0.028157395701643467,
+    "min": -0.001417193426043073,
+    "max": 0.05597977243994939
+   },
+   "published": {
+    "IV": {
+     "total_Bq": 25.457,
+     "soluble_share": 0.048473897159916714
+    },
+    "OV": {
+     "total_Bq": 4.196999999999999,
+     "soluble_share": 0.17345723135573032
+    },
+    "IV_plus_OV_Bq": 29.654,
+    "sd": {
+     "IV_total_Bq": 0.24899412675862065,
+     "OV_total_Bq": 0.17469430691843826,
+     "IV_plus_OV_Bq": 0.3728019474330133,
+     "IV_soluble_share": 0.0035450036978727584,
+     "OV_soluble_share": 0.012737871301108978
+    },
+    "diagnostics": {
+     "negative_vials": 39,
+     "vials": 120,
+     "low_activity_vials": 99,
+     "slope_Bq_per_100_tSIE": -0.09018878610603269,
+     "mean_net_low_activity_high_tSIE_Bq": -0.04615384615384615,
+     "mean_net_low_activity_low_tSIE_Bq": 0.07597260273972602
+    }
+   },
+   "anchored": {
+    "IV": {
+     "total_Bq": 27.261480509899805,
+     "soluble_share": 0.08329326283542159
+    },
+    "OV": {
+     "total_Bq": 5.842925485609354,
+     "soluble_share": 0.3178535804785267
+    },
+    "IV_plus_OV_Bq": 33.10440599550916,
+    "diagnostics": {
+     "negative_vials": 5,
+     "vials": 120,
+     "low_activity_vials": 99,
+     "slope_Bq_per_100_tSIE": -0.034483658193599984,
+     "mean_net_low_activity_high_tSIE_Bq": 0.05933264938934472,
+     "mean_net_low_activity_low_tSIE_Bq": 0.10325418834631152
+    },
+    "sd": {
+     "IV_total_Bq": 0.6649428519183469,
+     "OV_total_Bq": 0.4776491355269022,
+     "IV_plus_OV_Bq": 1.1174120812638708,
+     "IV_soluble_share": 0.00925939366544845,
+     "OV_soluble_share": 0.021458953388949736
+    },
+    "measured_TBR": 0.004494571635611249
+   },
+   "anchored_no_clamp": {
+    "IV": {
+     "total_Bq": 27.21779588521143,
+     "soluble_share": 0.08194281082589712
+    },
+    "OV": {
+     "total_Bq": 5.817755800717305,
+     "soluble_share": 0.31922872834249644
+    },
+    "IV_plus_OV_Bq": 33.03555168592874,
+    "diagnostics": {
+     "negative_vials": 5,
+     "vials": 120,
+     "low_activity_vials": 99,
+     "slope_Bq_per_100_tSIE": -0.034483658193599984,
+     "mean_net_low_activity_high_tSIE_Bq": 0.05933264938934472,
+     "mean_net_low_activity_low_tSIE_Bq": 0.10325418834631152
+    },
+    "measured_TBR": 0.004485223314216456
+   },
+   "literal": {
+    "IV": {
+     "total_Bq": 28.94257979225613,
+     "soluble_share": 0.10535736535319379
+    },
+    "OV": {
+     "total_Bq": 7.010906078322873,
+     "soluble_share": 0.3426083307107247
+    },
+    "IV_plus_OV_Bq": 35.953485870579,
+    "diagnostics": {
+     "negative_vials": 0,
+     "vials": 120,
+     "low_activity_vials": 99,
+     "slope_Bq_per_100_tSIE": -0.039566508598420785,
+     "mean_net_low_activity_high_tSIE_Bq": 0.07810979936858577,
+     "mean_net_low_activity_low_tSIE_Bq": 0.1282745784075512
+    },
+    "sd": {
+     "IV_total_Bq": 0.6149017878820933,
+     "OV_total_Bq": 0.3998599273154389,
+     "IV_plus_OV_Bq": 0.990142170608359,
+     "IV_soluble_share": 0.0063294017916234405,
+     "OV_soluble_share": 0.012248049845669335
+    },
+    "measured_TBR": 0.004881390042678178
+   },
+   "anchored_flat_extrapolation_IV_plus_OV_Bq": 33.09320583946163,
+   "anchored_delta_Bq": {
+    "IV": [
+     0.04479787811690028,
+     0.1033150083582659,
+     0.10254073280521148,
+     0.14239497708841675,
+     0.05360831415785139,
+     0.07056869548996225,
+     0.12642218597239552,
+     0.09594045876025126,
+     0.12975535063741317,
+     0.1368609340511433,
+     0.16409152857149234,
+     0.1670081574694957,
+     0.15438897408692398,
+     0.09979726512630355,
+     0.07027699000681148,
+     0.05737054044828127,
+     0.08534251875268517
+    ],
+    "OV": [
+     0.045596896263702724,
+     0.13514500074581298,
+     0.12522317591868476,
+     0.1272100725971879,
+     0.1333924721475494,
+     0.17410921680552993,
+     0.17082349883542636,
+     0.1800985310138079,
+     0.11679964619172489,
+     0.12277359067091614,
+     0.06641066234506715,
+     0.14403823164895208,
+     0.10430449042499235
+    ]
+   }
+  },
+  "4": {
+   "quench_set": [
+    "Low Energy: 3H-UG-LLT-NM-C"
+   ],
+   "measured_TBR_published": 0.002576399043748016,
+   "high_tSIE_vials": 15,
+   "high_tSIE_vials_by_position": {
+    "IV1": 6,
+    "IV2": 0,
+    "IV3": 0,
+    "IV4": 0,
+    "OV1": 9,
+    "OV2": 0,
+    "OV3": 0,
+    "OV4": 0
+   },
+   "vials_beyond_scan_tSIE": 0,
+   "blank_minus_curve_at_blank_tSIE_Bq": {
+    "median": 0.007854614412136474,
+    "min": -0.02973451327433635,
+    "max": 0.020312262958280536
+   },
+   "published": {
+    "IV": {
+     "total_Bq": 41.75900000000001,
+     "soluble_share": 0.011255058789721972
+    },
+    "OV": {
+     "total_Bq": 13.143999999999998,
+     "soluble_share": 0.014607425441265975
+    },
+    "IV_plus_OV_Bq": 54.903000000000006,
+    "sd": {
+     "IV_total_Bq": 0.28891925206496333,
+     "OV_total_Bq": 0.21084237091179647,
+     "IV_plus_OV_Bq": 0.44346709222610703,
+     "IV_soluble_share": 0.0022186406221888703,
+     "OV_soluble_share": 0.005471702436661825
+    },
+    "diagnostics": {
+     "negative_vials": 43,
+     "vials": 144,
+     "low_activity_vials": 125,
+     "slope_Bq_per_100_tSIE": -0.13477760285940368,
+     "mean_net_low_activity_high_tSIE_Bq": -0.029599999999999998,
+     "mean_net_low_activity_low_tSIE_Bq": 0.04978181818181817
+    }
+   },
+   "anchored": {
+    "IV": {
+     "total_Bq": 42.44672711846063,
+     "soluble_share": 0.02270487986724229
+    },
+    "OV": {
+     "total_Bq": 13.868686984180105,
+     "soluble_share": 0.05516897805341194
+    },
+    "IV_plus_OV_Bq": 56.31541410264073,
+    "diagnostics": {
+     "negative_vials": 18,
+     "vials": 144,
+     "low_activity_vials": 125,
+     "slope_Bq_per_100_tSIE": -0.05211841622299933,
+     "mean_net_low_activity_high_tSIE_Bq": 0.03722637950613588,
+     "mean_net_low_activity_low_tSIE_Bq": 0.06121254697480548
+    },
+    "sd": {
+     "IV_total_Bq": 0.36856471314646944,
+     "OV_total_Bq": 0.3010713361694093,
+     "IV_plus_OV_Bq": 0.6249231063611252,
+     "IV_soluble_share": 0.004217780985740724,
+     "OV_soluble_share": 0.011464671992440499
+    },
+    "measured_TBR": 0.002642678524712987
+   },
+   "anchored_no_clamp": {
+    "IV": {
+     "total_Bq": 42.284275441663596,
+     "soluble_share": 0.019350500822065672
+    },
+    "OV": {
+     "total_Bq": 13.783434548221983,
+     "soluble_share": 0.05061211852970863
+    },
+    "IV_plus_OV_Bq": 56.06770998988558,
+    "diagnostics": {
+     "negative_vials": 18,
+     "vials": 144,
+     "low_activity_vials": 125,
+     "slope_Bq_per_100_tSIE": -0.05211841622299933,
+     "mean_net_low_activity_high_tSIE_Bq": 0.03722637950613588,
+     "mean_net_low_activity_low_tSIE_Bq": 0.06121254697480548
+    },
+    "measured_TBR": 0.0026310546673785087
+   },
+   "literal": {
+    "IV": {
+     "total_Bq": 42.59959882938063,
+     "soluble_share": 0.023505894801608782
+    },
+    "OV": {
+     "total_Bq": 13.9687709900977,
+     "soluble_share": 0.057106036532867756
+    },
+    "IV_plus_OV_Bq": 56.568369819478335,
+    "diagnostics": {
+     "negative_vials": 11,
+     "vials": 144,
+     "low_activity_vials": 125,
+     "slope_Bq_per_100_tSIE": -0.05762149341022834,
+     "mean_net_low_activity_high_tSIE_Bq": 0.034768278376529176,
+     "mean_net_low_activity_low_tSIE_Bq": 0.06410024678243305
+    },
+    "sd": {
+     "IV_total_Bq": 0.601078257778857,
+     "OV_total_Bq": 0.5207342655137981,
+     "IV_plus_OV_Bq": 1.094754987083993,
+     "IV_soluble_share": 0.004766697428841634,
+     "OV_soluble_share": 0.011396624285873154
+    },
+    "measured_TBR": 0.0026545488208164964
+   },
+   "anchored_flat_extrapolation_IV_plus_OV_Bq": 56.31541410264073,
+   "anchored_delta_Bq": {
+    "IV": [
+     0.005515127513620044,
+     -0.017236389005661934,
+     0.03071917852560535,
+     0.08695656856593315,
+     0.004965559754496085,
+     0.04389655643560264,
+     0.03045184585478289,
+     0.04013271300383936,
+     0.02493852914866468,
+     0.03874409473383811,
+     0.01483980665197121,
+     0.010560890694781389,
+     0.08217931975677217,
+     0.07458662899943885,
+     0.031192817246345483,
+     0.026560295303316717,
+     0.07081803720173707,
+     0.0625864516123506,
+     0.025319086463199802
+    ],
+    "OV": [
+     -0.0009473707702901679,
+     0.011501928866904487,
+     0.042650802652555025,
+     0.09360212796755402,
+     0.0042896196832032385,
+     0.028895703924950722,
+     0.029682660985988762,
+     0.05524641509356515,
+     0.06673021312614519,
+     0.0586088107618144,
+     0.0784338307760235,
+     0.08326321380019103,
+     0.017036327015397923,
+     0.007701099868822947,
+     0.050337422984156444,
+     0.060688981148277144,
+     0.03696519629484496
+    ]
+   }
+  },
+  "6": {
+   "quench_set": [
+    "Low Energy: 3H-UG-LLT-NM-C"
+   ],
+   "measured_TBR_published": 0.0022510435099635084,
+   "high_tSIE_vials": 2,
+   "high_tSIE_vials_by_position": {
+    "IV1": 0,
+    "IV2": 0,
+    "IV3": 0,
+    "IV4": 0,
+    "OV1": 2,
+    "OV2": 0,
+    "OV3": 0,
+    "OV4": 0
+   },
+   "vials_beyond_scan_tSIE": 0,
+   "blank_minus_curve_at_blank_tSIE_Bq": null,
+   "published": {
+    "IV": {
+     "total_Bq": 18.64384827845652,
+     "soluble_share": 0.012810159143714788
+    },
+    "OV": {
+     "total_Bq": 3.7871015250487567,
+     "soluble_share": 0.02124889421682541
+    },
+    "IV_plus_OV_Bq": 22.43094980350528,
+    "sd": {
+     "IV_total_Bq": 0.12450363712723607,
+     "OV_total_Bq": 0.06665181839437044,
+     "IV_plus_OV_Bq": 0.14122632093274637,
+     "IV_soluble_share": 0.0021875299304450393,
+     "OV_soluble_share": 0.006635237737618806
+    },
+    "diagnostics": {
+     "negative_vials": 4,
+     "vials": 36,
+     "low_activity_vials": 30,
+     "slope_Bq_per_100_tSIE": -0.14657695663396017,
+     "mean_net_low_activity_high_tSIE_Bq": 0.017680848424708503,
+     "mean_net_low_activity_low_tSIE_Bq": 0.05673514836037098
+    }
+   },
+   "validation_max_abs_diff_Bq": 0.0,
+   "anchored_delta_Bq": {
+    "IV": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "OV": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ }
+}

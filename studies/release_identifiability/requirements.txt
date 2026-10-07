@@ -1,0 +1,10 @@
+# Pinned environment for this study (tested on Python 3.12 and 3.14).
+# libra-toolbox: 4c7ef88 is cb41e93 (the commit the rest of the repo pins) plus the merged PR #94,
+# which makes it importable without OpenMC. libra_toolbox/tritium/ is byte-identical between the two.
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.6
+Pint==0.26.1
+PyYAML==6.0.3
+matplotlib==3.11.2
+libra-toolbox @ git+https://github.com/LIBRA-project/libra-toolbox.git@4c7ef886740dc8f4c861df4d64999160c5896cbf

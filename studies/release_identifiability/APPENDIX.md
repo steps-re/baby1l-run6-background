@@ -186,7 +186,7 @@ One k_top: 4.86e-8 m/s, IV floor 1.15 Bq. The gain peaks sharply at one sample, 
 
 Column height caveat: the column here is the lab's 1 L model (6.50 cm). The logged salt charge (1.88 kg at 1.5398 g/cm3) fills about 7.96 cm. Diffusive times scale with height squared, so every D threshold in this section would move up by a factor of about 1.50 with the logged charge (see Data and noise model).
 
-Reference values: Calderoni's T in FLiBe, D = 9.3e-7 exp(-42 kJ/mol / RT) at each run's logged salt temperature, and 7e-10 m2/s for H2 near 900 K. Both are FLiBe numbers. We found no measured value for ClLiF.
+Reference values: Calderoni's T in FLiBe, D = 9.3e-7 exp(-42 kJ/mol / RT) at each run's logged salt temperature (Calderoni et al. 2008, doi:10.1016/j.fusengdes.2008.05.016), and 7e-10 m2/s for H2 near 900 K (Nakamura, Fukada and Nishiumi 2015, H2 in Flibe, as compiled in h-transport-materials: 7.1e-10 at 900 K, a short extrapolation of a fit measured at 773 to 873 K). Both are FLiBe numbers. We found no measured value for ClLiF.
 
 | Window | TBR | 95% region for D (m2/s) | 2dNLL at Calderoni | 2dNLL at 7e-10 | 2dNLL well mixed |
 | --- | --- | --- | --- | --- | --- |
@@ -225,7 +225,7 @@ Synthetic data use each window's real sampling times, irradiation schedule, coun
 - `build_increments.py` runs each lab's own `tritium_model.py` unchanged against those files, with the toolbox wrapped so every vial carries its Poisson error (Bq / sqrt(CPMA x count time)). Shared blanks give correlated errors. The rebuilt cumulative curves equal `processed_data.json` to 1e-9 Bq in every run and stream.
 - The Poisson formula checks out on run 1's six-fold recounts: the scatter of 5 vials counted 6 times is 1.21 times the predicted sigma (25 dof).
 - Fits use per-sample increments, not the cumulative curve, so errors do not pile up along the curve.
-- Scatter floor: counting noise plus a fitted additive term per stream (Bq). Two alternatives were rejected. A term proportional to the data let run 4's fit ignore its big early samples (k_top fell to 2e-9 m/s). A term proportional to the model stuck in local minima.
+- Scatter floor: counting noise plus a fitted additive term per stream (Bq). Two alternatives were rejected. A term proportional to the data let run 4's fit ignore its big early samples. A term proportional to the model stuck in local minima.
 - Background: the main fits use the lab's numbers (one blank per file, negative vials set to zero by the toolbox). The run-6 background variant for runs 3 and 4 is described above. It changes the per-sample increments. The counting covariance is kept from the published background, which slightly understates the blank's weight in the corrected vials.
 - The 0D model and geometry are the lab's: radius 7 cm, V = 1 L, wall 0.06 in, decay on. The solver matches `release/r0.py` (bundle root) to 2e-15.
 - Windows: run 3 is cut at its switch to H2 (day 18.21) and run 4 at its switch to 3.5% H2 (day 17.37). Run 6 is fitted whole, with k_top stepping at its switch to He.

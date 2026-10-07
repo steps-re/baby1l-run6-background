@@ -12,8 +12,8 @@ fitted additive floor per stream for everything counting does not cover:
 bubbler efficiency, vial handling, and model error. With noise="counting" the
 floors are off. Two alternatives were tried and rejected (see README): a floor
 proportional to the data (lets the fit discount large increments and chase
-near-zero ones; run 4 k_top fell to 2e-9 m/s) and one proportional to the
-model (local minima; run 4 stuck 960 NLL units above the additive optimum).
+near-zero ones in run 4) and one proportional to the model (local minima in
+run 4).
 
 Parameters are log10 of the physical quantities. Parametrization "A" is
 (k_top per gas period, k_wall, [TBR scale], sig_IV, [sig_OV]). Parametrization "B"

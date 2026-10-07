@@ -835,7 +835,9 @@ def main():
       "with the logged charge (see Data and noise model).")
     a("")
     a("Reference values: Calderoni's T in FLiBe, D = 9.3e-7 exp(-42 kJ/mol / RT) at each run's logged salt "
-      "temperature, and 7e-10 m2/s for H2 near 900 K. Both are FLiBe numbers. We found no measured value for "
+      "temperature (Calderoni et al. 2008, doi:10.1016/j.fusengdes.2008.05.016), and 7e-10 m2/s for H2 near 900 K "
+      "(Nakamura, Fukada and Nishiumi 2015, H2 in Flibe, as compiled in h-transport-materials: 7.1e-10 at 900 K, "
+      "a short extrapolation of a fit measured at 773 to 873 K). Both are FLiBe numbers. We found no measured value for "
       "ClLiF.")
     a("")
     a("| Window | TBR | 95% region for D (m2/s) | 2dNLL at Calderoni | 2dNLL at 7e-10 | 2dNLL well mixed |")
@@ -950,8 +952,8 @@ def main():
       f"counted 6 times is {rc['pooled_ratio']:.2f} times the predicted sigma ({rc['pooled_dof']} dof).")
     a("- Fits use per-sample increments, not the cumulative curve, so errors do not pile up along the curve.")
     a("- Scatter floor: counting noise plus a fitted additive term per stream (Bq). Two alternatives were "
-      "rejected. A term proportional to the data let run 4's fit ignore its big early samples (k_top fell to "
-      "2e-9 m/s). A term proportional to the model stuck in local minima.")
+      "rejected. A term proportional to the data let run 4's fit ignore its big early samples. A term proportional "
+      "to the model stuck in local minima.")
     a("- Background: the main fits use the lab's numbers (one blank per file, negative vials set to zero by the "
       "toolbox). The run-6 background variant for runs 3 and 4 is described above. It changes the per-sample "
       "increments. The counting covariance is kept from the published background, which slightly understates the "

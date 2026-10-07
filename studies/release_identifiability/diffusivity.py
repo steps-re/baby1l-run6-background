@@ -9,7 +9,8 @@ The large-D end is the well-mixed 0D model.
 Reference diffusivities (study brief values, not re-derived here):
   Calderoni et al. 2008, T in FLiBe: D = 9.3e-7 exp(-42 kJ/mol / RT) m2/s,
   evaluated at each run's logged minimum salt temperature;
-  H2 in FLiBe near 900 K (Nakamura-like): 7e-10 m2/s.
+  H2 in FLiBe near 900 K: 7e-10 m2/s (Nakamura, Fukada and Nishiumi 2015 via
+  h-transport-materials nakamura_hydrogen_2015, 7.1e-10 at 900 K, fit 773-873 K).
 
 Also runs a synthetic control on run 1's design: data generated well mixed
 must give a profile that is flat above some D (a lower bound only), and data
